@@ -324,8 +324,8 @@ export function Courses({ onPageChange }: CoursesProps) {
                       onClick={() => {
                         if (course.title === "Full Stack Web Development") {
                           onPageChange('full-stack-development');
-                        } else if (course.title === "Digital Marketing Mastery") {
-                          onPageChange('digital-marketing-course');
+                        } else if (course.title === "Advanced SEO & Meta Ads Mastery") {
+                          onPageChange('Advanced SEO & Meta Ads Mastery');
                         } else {
                           onPageChange('contact');
                         }
