@@ -1,8 +1,9 @@
 {
       "name": "bj-tech-innovations",
+      "homepage": "https://bjtechinnovations.com",
       "version": "0.1.0",
       "private": true,
-      "homepage": "./",
+      
       "dependencies": {
             "@formspree/react": "^3.0.0",
             "@radix-ui/react-accordion": "^1.2.3",
