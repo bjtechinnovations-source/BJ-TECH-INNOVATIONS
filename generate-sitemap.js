@@ -27,8 +27,10 @@ async function generateSitemap() {
 
     const xml = await sitemapPromise;
 
-    // 3. Sitemap File Ko Project Root mein Save Karein
-    const path = './sitemap.xml'; 
+    // 3. Sitemap File Ko 'public' Folder mein Save Karein (Yahi Zaroori Badlav Hai)
+    // Yeh file ab seedhe public folder mein likhi jaayegi.
+    const path = './public/sitemap.xml'; 
+
     fs.writeFileSync(path, xml);
 
     console.log(`Sitemap successfully generated at ${path}`);
